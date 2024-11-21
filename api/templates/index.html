@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2110DMTCSE10169</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Filter API Frontend</h1>
+
+        <!-- Input for API Data -->
+        <label for="apiInput">API Input:</label>
+        <textarea id="apiInput" placeholder='{"data":["M","1","334","4","B"]}'></textarea>
+
+        <!-- Submit Button -->
+        <button id="submitButton">Submit</button>
+
+        <!-- Multi Filter Dropdown -->
+        <label for="filter">Multi Filter:</label>
+        <select id="filter" multiple>
+            <option value="numbers">Numbers</option>
+            <option value="alphabets">Alphabets</option>
+        </select>
+
+        <!-- Active Filters Section -->
+        <div id="activeFilters"></div>
+
+        <!-- Filtered Response -->
+        <h3>Filtered Response:</h3>
+        <pre id="filteredResponse">No Data</pre>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
