@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#activeFilters {
+    margin: 10px 0;
+}
+
+.filter-tag {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+
+.filter-tag .close-icon {
+    margin-left: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.filter-tag .close-icon:hover {
+    color: darkred;
+}
